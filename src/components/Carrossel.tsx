@@ -18,9 +18,9 @@ export default function Carrossel(props: CarrosselProps) {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="4000">
-                        <img src="../../img/cursos-online.png" className={`d-block w-100 ${style.imagemCarrossel}`} alt="..." />
+                        <img src="../../img/cursos.jpg" className={`d-block w-100 ${style.imagemCarrossel}`} alt="..." />
                             <div className="carousel-caption d-none d-md-block h-25">
-                                <h1 className={`${style.fonteTitulo} display-4`} >Os melhores Cursos!</h1>
+                                <h1 className={`${style.fonteTitulo} text-danger display-4`} >Os melhores Cursos!</h1>
                             </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="4000">
