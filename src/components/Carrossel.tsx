@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image"
+
 import style from '../styles/index.module.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -21,7 +21,7 @@ export default function Carrossel() {
                             </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="4000">
-                        <img src="../../img/curso.jpg" className={`d-block w-100 ${style.imagemCarrossel}`} alt="..." />
+                        <img src="../../img/Curso.jpg" className={`d-block w-100 ${style.imagemCarrossel}`} alt="..." />
                             <div className="carousel-caption d-none d-md-block h-20">
                                 <h1 className={`${style.fonteTitulo} display-4`} >Os melhores Instrutores!</h1>
                             </div>
