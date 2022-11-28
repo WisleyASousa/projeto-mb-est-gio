@@ -3,7 +3,7 @@ import style from '../styles/index.module.css'
 export default function Header() {
   return (
       <div>
-          <header>
+          <header className='pt-4'>
               <nav className="navbar navbar-expand-lg fixed-top navbar-dark px-5 bg-dark bg-light">
                   <div className="container-fluid ">
                       <a className={`navbar-brand  bold ${style.fonteTitulo} fs-2 ${style.corEspecial}`} href="#">Learn Plus</a>

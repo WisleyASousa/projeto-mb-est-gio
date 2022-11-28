@@ -4,10 +4,13 @@ import style from '../styles/index.module.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+interface CarrosselProps {
+    className?: string;
+}
 
-export default function Carrossel() {
+export default function Carrossel(props: CarrosselProps) {
     return (
-        <div className="pt-4">
+        <div>
             <div id="carouselExampleDark" className="carousel pt-5 carousel-dark slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
