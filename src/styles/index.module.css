@@ -15,7 +15,7 @@
 }
 
 .corBotaoEspecial{
-    background-color: #7030A0;
+    background-color: #7030A0 !important;
 }
 
 .bordarCorEspecial {
@@ -33,5 +33,5 @@
     background-color: #edf3ee;
 }
 .cor{
-    color: #28E542;
+    color: #28E542 !important;
 }
